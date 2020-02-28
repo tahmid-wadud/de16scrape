@@ -1,0 +1,8 @@
+from python:alpine
+
+run mkdir /code
+
+copy pyscrape.py /code
+
+CMD ["python","/code/pyscrape.py"]
+
